@@ -16,6 +16,7 @@ body {
     max-width: 375px;
 }
 
+
 header {
     display: flex;
     width: 100%;
@@ -36,27 +37,55 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 3.5rem;
 }
 
 #vangogh-avi {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 100%;
-    
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%; 
+    margin: 1rem;
+}
+
+.name-location {
     
 }
+.name-location h2 {
+    margin-top: 1.1rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.name-location p {
+    margin-top: 0rem;
+    margin-bottom: 1.125rem;
+    font-size: 0.8rem;
+}
+
 
 #gogh {
     width: 100%;
 }
 
-#heart,
-#comment,
-#dm {
-    width: 15%;
+.buttons {
+    margin: 10px
+}
+
+.btn {
+    width: 8.75%;
+    margin: 0 5px 0 0;
+}
+
+#likes {
+    font-size: 0.85rem;
+    margin: 15px 10px;
 }
 
 #username {
     font-weight: bolder;
     margin-right: 6px;
+}
+
+.caption {
+    margin: 15px 10px;
 }
